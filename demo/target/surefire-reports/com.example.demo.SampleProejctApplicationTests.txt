@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.SampleProejctApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.549 s <<< FAILURE! - in com.example.demo.SampleProejctApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
